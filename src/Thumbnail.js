@@ -5,14 +5,21 @@ import './App.css';
 function Thumbnail(props) {
     return (
         <div className="project">
-            
-                <div className="project-image">
-                    <img src={props.image} alt="" />
-                </div>
+
+            <div className="project-image">
+                <img src={props.image} alt="" />
+            </div>
+            <div>
                 <a href={props.link}>{props.title}</a>
-                
-                <div className="project-category">{props.category}</div>
-            
+            </div>
+            <div>
+                <a href={props.GitHubRepo}>GitHub Repo</a>
+            </div>
+            <div>
+                <p>{props.description}</p>
+            </div>
+            <div className="project-category">Type: {props.category}</div>
+            <hr />
         </div>
     )
 }
