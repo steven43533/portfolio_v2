@@ -1,36 +1,51 @@
 li {
   list-style-type: none;
-
+  
 }
 
 a {
   text-decoration: none;
+  color: greenyellow;
+  margin-right: 15px;
 }
 .container {
   margin: 15px;
+  text-align: center;
 }
 
-.row {
+.contentcontainer {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.navitems {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  justify-content: center;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+.global-class-name {
+  height: 200px;
+  width: 200px;
 }
 
-.sidebarcolumn {
-  background-color: pink;
-  height: 100vh;
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
 
-.contentcolumn {
-  background-color: whitesmoke;
-  height: 100vh;
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 

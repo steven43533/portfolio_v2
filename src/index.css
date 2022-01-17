@@ -7,11 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: #062843cb;
+  color:rgb(222, 222, 222);
 }
+
+
