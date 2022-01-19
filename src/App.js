@@ -5,6 +5,8 @@ import Skills from './Skills';
 import About from './About';
 import Typewriter from 'typewriter-effect'
 import ScrollToTop from 'react-scroll-to-top';
+import '@fontsource/roboto/300.css';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Navbar />
       <div>
         <div>
-          <h1>Steven Lopez</h1>
+          <Typography variant='h2'>
+            Steven Lopez
+          </Typography>
           <Typewriter
             options={{
               strings: ['Web Developer', 'Always Learning', 'Self-Driven'],
