@@ -5,18 +5,20 @@ function Skills(props) {
     return (
         <div id="skills">
             <h1>Skills</h1>
-            <IconContext.Provider value={{ size: "10em", className: "global-class-name"}}>
-                <DiJavascript1 />
-                <DiNodejsSmall />
-                <DiMongodb />
-                <DiGithubBadge />
-                <DiNpm />
-                <DiPostgresql />
-                <DiReact />
-                <DiVisualstudio />
-                <DiBootstrap />
-                <DiTerminal />
-            </IconContext.Provider>
+            <div className="allSkills">
+                <IconContext.Provider value={{ size: "5em", className: "global-class-name"}}>
+                    <DiJavascript1 />
+                    <DiNodejsSmall />
+                    <DiMongodb />
+                    <DiGithubBadge />
+                    <DiNpm />
+                    <DiPostgresql />
+                    <DiReact />
+                    <DiVisualstudio />
+                    <DiBootstrap />
+                    <DiTerminal />
+                </IconContext.Provider>
+            </div>
         </div>
     )
 }

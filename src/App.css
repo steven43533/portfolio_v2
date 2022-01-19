@@ -5,8 +5,17 @@ li {
 
 a {
   text-decoration: none;
-  color: greenyellow;
+  color: forestgreen;
   margin-right: 15px;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+h1 {
+  color: rgb(230, 78, 78);
 }
 .container {
   margin: 15px;
@@ -24,9 +33,11 @@ a {
   justify-content: center;
 }
 
-.global-class-name {
-  height: 200px;
-  width: 200px;
+@media screen and (max-width: 600px){
+  .allSkills {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 #myBtn {
@@ -56,5 +67,6 @@ a {
 
 .project-description {
   display: inline-block;
-  text-overflow: clip;
+
 }
+
