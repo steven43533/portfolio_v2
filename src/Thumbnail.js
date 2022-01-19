@@ -15,11 +15,10 @@ function Thumbnail(props) {
             <div>
                 <a href={props.GitHubRepo}>GitHub Repo</a>
             </div>
-            <div>
+            <div className='project-description'>
                 <p>{props.description}</p>
             </div>
             <div className="project-category">Type: {props.category}</div>
-            <hr />
         </div>
     )
 }
